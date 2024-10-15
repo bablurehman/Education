@@ -1,0 +1,89 @@
+.contact{
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    color: black;
+}
+
+.contact-col h3 {
+    color: rgb(4, 170, 109);
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-col h3 img {
+    width: 28px;
+    margin-left: 10px;
+
+}
+
+.contact-col p {
+    max-width: 450px;
+    line-height: 1.3;
+}
+
+.contact-cl{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.contact-cl div {
+display: flex;
+align-items: center;
+margin: 10px 0;
+gap: 20px;
+font-size: 17px;
+}
+
+.contact-cl .icon{
+    font-size: 20px;
+    color: rgb(4, 170, 109);
+}
+
+
+form label {
+margin-left: 0.5rem;
+font-size: 18px;
+color: rgb(4, 170, 109);
+}
+
+.contact form input, .contact form textarea {
+    display: block;
+    background: rgb(231, 230, 230);
+    width: 100%;
+    padding: 13px 10px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.contact-col span{
+    display: block;
+    margin: 20px 0;
+}
+
+/* ------media query ----------- */
+
+@media (max-width: 700px){
+.contact{
+    display: block;
+}
+.contact-col{
+    padding: 20px;
+}
+}
